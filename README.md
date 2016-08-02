@@ -79,7 +79,6 @@ pip-review —auto
 ## Python 3
 ```bash
 brew install python3
-pip3 install jupyter
 pip3 install numpy
 pip3 install scipy
 pip3 install matplotlib
@@ -95,6 +94,5 @@ git config --global credential.helper osxkeychain
 ```
 
 ## To-do
-- Generate script to automate most of this...
-- Tidy all of this up
+- Tidy all of this up, sync with actual script
 - Add a bit of explanitory text
