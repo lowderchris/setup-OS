@@ -33,6 +33,7 @@ pip install brewer2mpl
 pip3 install numpy
 pip3 install scipy
 pip3 install matplotlib
+pip3 install ipython
 
 ## All done
 echo "Hello, macOS."
