@@ -3,14 +3,14 @@
 I probably do a fresh install of macOS more often than some folks, as I enjoy clearing out clutter and repopulating my machine with data I *actually* need. I figured I would make that process a bit easier. This is designed with the current El Capitan release in mind.
 
 ## System
-Xcode
+Install Xcode via app store
 ```bash
 xcode-select --install
 defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.screencapture location ~/Downloads/
 killall SystemUIServer
 ```
-Settings > Keyboard > Key repeat / delay
+Settings > Keyboard > Key repeat / delay (Set these as appropriate)
 
 ## Homebrew
 ```bash
@@ -26,7 +26,14 @@ brew install pandoc
 
 ```bash
 brew install python
+brew install python3
 brew install gcc
+```
+
+```bash
+brew update
+brew outdated
+brew upgrade
 ```
 
 ## Python
@@ -46,15 +53,29 @@ pip install palettable
 pip install suds
 pip install pandas
 pip install astropy
+pip install sunpy
 pip install pyfits
 pip install brewer2mpl
 ```
 
 ```bash
-pip freeze > requirements.txt
-pip install -r requirements.txt
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
+pip3 install pyfits
+pip3 install sunpy
+pip3 install ipython
 ```
 
+```bash
+pip freeze > requirements.txt
+pip install -r requirements.txt
+pip install pip-review
+pip-review —auto
+```
+
+```bash
+```
 ## Mayavi
 ```bash
 brew install qt
@@ -63,27 +84,11 @@ echo /usr/local/opt/vtk5/lib/python2.7/site-packages >> /usr/local/lib/python2.7
 pip install mayavi
 ```
 
-```bash
-brew update
-brew outdated
-brew upgrade
-```
 
 ## Virtual environments
-
-```bash
-pip install pip-review
-pip-review —auto
-```
-
-## Python 3
-```bash
-brew install python3
-pip3 install numpy
-pip3 install scipy
-pip3 install matplotlib
-pip3 install ipython
-```
+With virtual environments, python packages beyond the core set installed above can be configured on a project-by-project basis. They will be installed locally for the given directory.
+For Python 2.7, virtualenv.
+For Python 3, the bundled pyvenv works.
 
 ## GitHub
 ```bash
@@ -94,6 +99,13 @@ brew install git
 git config --global credential.helper osxkeychain
 ```
 
+## SSH
+Setup config with server names
+```bash
+ssh-keygen -t rsa
+scp id_rsa.pub remoteserver:~/
+cat ~/id_rsa.pub >> authorized_keys
+```
+
 ## To-do
-- Tidy all of this up, sync with actual script
-- Add a bit of explanitory text
+- Add a bit of explanitory text?

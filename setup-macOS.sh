@@ -26,6 +26,7 @@ pip install palettable
 pip install suds
 pip install pandas
 pip install astropy
+pip install sunpy
 pip install pyfits
 pip install brewer2mpl
 
@@ -33,6 +34,8 @@ pip install brewer2mpl
 pip3 install numpy
 pip3 install scipy
 pip3 install matplotlib
+pip3 install pyfits
+pip3 install sunpy
 pip3 install ipython
 
 ## All done
