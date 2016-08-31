@@ -14,7 +14,13 @@ Right off the bat, there are a few changes I always make to some macOS defaults 
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
 
+### Terminal
+
 When using the terminal to connect to a linux server over SSH, there can sometimes be some translation problems with key commands. If you notice backspaces being interpreted as odd character strings such as ^?... Enable the 'Delete sends Control-H' under the advanced terminal settings.
+
+To enable color coding of files when looking through a directory, add the following line to your ~/.bash_profile file,
+
+	alias ls = 'ls -G'
 
 ## LaTeX
 
