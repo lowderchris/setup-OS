@@ -128,7 +128,7 @@ After installing this core set of packages, you might run into a bit of code tha
 
 ### Python 2 legacy code
 
-While sticking with Python 3.x is probably best for the long-run, you might occasionally run across some code that relies on older packages. In that case, install Python 2 with the following,
+While sticking with Python 3.x is probably best for the long-run, you might occasionally run across some code that relies on older packages. Many projects are now suggesting that all new code is Python3.x compatible first, and that new users focus on this. In case you absolutely need these legacy packages, install Python 2 with the following,
 
 	sudo easy_install pip
 	pip install numpy
