@@ -14,6 +14,8 @@ Right off the bat, there are a few changes I always make to some macOS defaults 
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
 
+When using the terminal to connect to a linux server over SSH, there can sometimes be some translation problems with key commands. If you notice backspaces being interpreted as odd character strings such as ^?... Enable the 'Delete sends Control-H' under the advanced terminal settings.
+
 ## LaTeX
 
 [MacTeX](https://www.tug.org/mactex/) and [TeXShop](http://pages.uoregon.edu/koch/texshop/) are my absolutely favorites. Trust me. MacTeX also includes the wonderfully useful tool, LaTeXiT. By entering a snippet of LaTeX math code into the prompt, a drag-and-droppable PDF or image is created. This is especially useful with dropping equations into Keynote. Did I mention Keynote. You should give Keynote a run for presentations. Again, trust me.
@@ -59,6 +61,10 @@ Down the road, packages can be upgraded to newer versions published by authors. 
 I’m a fan of the VIM text editor, so I’ll install that as well,
 
 	brew install macvim
+
+To connect to remote servers and have windows tunneled over the connection, you'll need the [XQuartz](https://www.xquartz.org) libraries. Luckily, this can now be installed with the homebrew cask commands via,
+
+	brew cask install xquartz
 
 ## Python
 
