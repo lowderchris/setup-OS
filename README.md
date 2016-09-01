@@ -72,6 +72,10 @@ To connect to remote servers and have windows tunneled over the connection, you'
 
 	brew cask install xquartz
 
+Creating animations from individual figure frames or converting between video formats is only a command line away with [ffmpeg](https://ffmpeg.org), which can be installed with,
+
+	brew install ffmpeg
+
 ## Python
 
 ### Core
