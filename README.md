@@ -72,6 +72,8 @@ To connect to remote servers and have windows tunneled over the connection, you'
 
 	brew cask install xquartz
 
+*Note that as of XQuartz 2.7.9, a [bug](https://bugs.freedesktop.org/show_bug.cgi?id=96260) exists that appears to break some OpenGL elements of window forwarding from a remote machine, particularly with regard to MayaVi and VTK. Installing the beta of [XQuartz 2.7.10](https://www.xquartz.org/releases/XQuartz-2.7.10_rc2.html) resolves this issue.*
+
 Creating animations from individual figure frames or converting between video formats is only a command line away with [ffmpeg](https://ffmpeg.org), which can be installed with,
 
 	brew install ffmpeg
