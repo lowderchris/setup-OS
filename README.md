@@ -78,6 +78,10 @@ Creating animations from individual figure frames or converting between video fo
 
 	brew install ffmpeg
 
+And finally, a great (in my opinion) text editor, [VIM](http://www.vim.org) can be installed via homebrew as well. VIM is lightweight, great for working over a painfully slow connection, and is available on almost every machine by default. It *does* have a bit of a learning curve, however.
+
+	brew install vim
+
 ## Python
 
 ### Core
