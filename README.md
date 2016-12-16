@@ -147,10 +147,10 @@ After installing this core set of packages, you might run into a bit of code tha
 While sticking with Python 3.x is probably best for the long-run, you might occasionally run across some code that relies on older packages. Many projects are now suggesting that all new code is Python3.x compatible first, and that new users focus on this. In case you absolutely need these legacy packages, install Python 2 with the following,
 
 	sudo easy_install pip
-	pip install numpy
-	pip install scipy
-	pip install matplotlib
-	pip install ipython
+	pip2 install numpy
+	pip2 install scipy
+	pip2 install matplotlib
+	pip2 install ipython
 
 ## SSH
 
