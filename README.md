@@ -135,6 +135,13 @@ Last, but certainly not least, we can install the [SunPy](http://sunpy.org) pack
 
 And with that, you now have a fully functional solar physics battlestation.
 
+### Upgrading pip packages
+
+Once you've got a nice stable installation setup and running, what better than to upgrade packages to break existing code and workflows. For the brave (or for those with virtual environments setup) all packages can be upgraded with pip in one (two) fell swoop(s).
+
+	pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+	pip3 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
+
 ### Virtual environments
 
 After installing this core set of packages, you might run into a bit of code that requires something more obscure. Rather than polluting this main tree of package installation, virtual environments allow a user to install required packages locally, in the project working directory. This will then allow either more obscure packages, or older versions that cannot be upgraded without breaking some code. For Python 3, the pyvenv tool (included by default) can be used for this. First, the env directory must be created, and then sourced to activate while managing packages.
