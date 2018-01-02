@@ -157,7 +157,7 @@ While sticking with Python 3.x is probably best for the long-run, you might occa
 
 ## SSH
 
-Using SSH is one of the main ways I get around from the various computer systems I work with each day. After a few hundred times of entering usernames and passwords manually, this got to be a bit of a pain. There are two ways to simplify this process. The first is to create a configuration file in ~/.ssh/config that will store shortcuts to full server paths and usernames. Each server will have an entry,
+Using SSH is one of the main ways I get around from the various computer systems I work with each day. After a few hundred times of entering usernames and passwords manually, this got to be a bit of a pain. There are two ways to simplify this process. The first is to create a configuration file in the location ~/.ssh/config that will store shortcuts to full server paths and usernames. Each server will have an entry,
 
 	Host shortname
 	HostName actual.long.path.to.server.edu.com.biz
