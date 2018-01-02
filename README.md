@@ -60,11 +60,7 @@ Down the road, packages can be upgraded to newer versions published by authors. 
 
 ### Install a few packages
 
-`wget` is a great tool for grabbing content from a web URL. `curl` is an alternative pre-loaded on macOS, but I can never recall the syntax.
-
-	brew install wget
-
-I’m a fan of the VIM text editor, so I’ll install that as well,
+I’m a fan of the VIM text editor, so that's almost an immediate install,
 
 	brew install macvim
 
