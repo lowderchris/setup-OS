@@ -14,6 +14,8 @@ Right off the bat, there are a few changes I always make to some macOS defaults 
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
 
+This might be a bit of a controversial move, but with the looming disappearance of the physical ESC key, I prefer some keyboard remapping. What other key might have outlived it's usefulness in this modern age? I'm looking at you, CAPSLOCK. Under Settings > Keyboard, continue to the Modifier Keys section under the Keyboard tab. From there the CAPSLOCK key can be given new life, as a much more useful ESC key. This take a little bit of muscle memory to adapt, but as a VIM user my pinky finger appreciates the much simpler reach.
+
 ### Terminal
 
 When using the terminal to connect to a linux server over SSH, there can sometimes be some translation problems with key commands. If you notice backspaces being interpreted as odd character strings such as ^?... Enable the 'Delete sends Control-H' under the advanced terminal settings.
