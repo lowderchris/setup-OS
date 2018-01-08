@@ -14,6 +14,8 @@ Right off the bat, there are a few changes I always make to some macOS defaults 
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
 
+Perhaps a personal preference, but I enjoy having my virtual desktops staying put, and not being automagically rearranged on the whims of the OS. Under Settings > Mission Control this option to rearrange spaces on recent use can be disabled.
+
 This might be a bit of a controversial move, but with the looming disappearance of the physical ESC key, I prefer some keyboard remapping. What other key might have outlived it's usefulness in this modern age? I'm looking at you, CAPSLOCK. Under Settings > Keyboard, continue to the Modifier Keys section under the Keyboard tab. From there the CAPSLOCK key can be given new life, as a much more useful ESC key. This take a little bit of muscle memory to adapt, but as a VIM user my pinky finger appreciates the much simpler reach.
 
 ### Terminal
