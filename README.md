@@ -24,7 +24,7 @@ When using the terminal to connect to a linux server over SSH, there can sometim
 
 To enable color coding of files when looking through a directory, add the following line to your ~/.bash_profile file,
 
-	alias ls = 'ls -G'
+	alias ls='ls -G'
 
 ## LaTeX
 
