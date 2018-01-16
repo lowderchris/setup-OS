@@ -54,10 +54,6 @@ So easy. *cough*MacPorts*cough*
 
 ### Usage
 
-As a simple test of this installation, we can install the package `htop`. This is a straightforward terminal view of system resources.
-
-	brew install htop
-
 Down the road, packages can be upgraded to newer versions published by authors. This can be achieved by commanding homebrew to check for updates, find outdated packages, and then undergo the upgrading process,
 
 	brew update
