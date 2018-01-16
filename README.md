@@ -40,6 +40,8 @@ Xcode itself can be installed via the macOS app store, or alternatively from the
 
 This will install the required command line tools for the rest of this installation process… as well as fueling the dream of one day having time to try my hand at creating a simple iOS app...
 
+Xcode has great integration with version control, especially git and GitHub. Beautiful side-by-side difference comparisons allow for quick and seamless committing and pushing to remote sources. A GitHub account can be added under the Xcode settings preference pane, where an SSH key can be generated and imported into GitHub online. Under the source control tab of the preference pane, editor information can be updated as well.
+
 ## Homebrew
 
 ### Installation
