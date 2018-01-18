@@ -80,7 +80,7 @@ Almost last but not least, a great (in my opinion) text editor, [VIM](http://www
 
     brew install vim
 
-One more thing... homebrew packages that have a corresponding macOS application bundle can have this installed to the /Applications/ directory via,
+One more thing... homebrew packages that have a corresponding macOS application bundle can have this installed to the /Applications/ directory. This will allow for macOS to have something to easily point to as a default application for opening particular file types, etc.
 
     brew linkapps
 
