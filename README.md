@@ -196,6 +196,10 @@ And finally, if you work between two machines quite a bit, rsync is a very usefu
     brew install git
     git config --global credential.helper osxkeychain
 
+[InkScape](https://inkscape.org/en/) is a fantastic GUI tool for vector graphic design, particularly great for figure design. The author has resorted in the past to painstakingly creating figures with tools such as XFig or LaTeX/TikZ... but that can be time consuming.
+
+    brew cask install inkscape
+
 [Pandoc](http://pandoc.org) is a fantastic tool for the automated conversion between a number of language types, from Markdown, LaTeX, HTML, ePub, etc. This is a great tool for writing notes up in one language, Markdown, for instance, and then enables the easy conversion into a number of other document types.
 
     brew install pandoc
