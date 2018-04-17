@@ -130,6 +130,7 @@ A few other packages will enable some astronomy libraries, as well as tools for 
     pip3 install pyfits
     pip3 install pandas
     pip3 install suds
+    pip3 install h5py
 
 Last, but certainly not least, we can install the [SunPy](http://sunpy.org) package, which aims to replace many of the standard solar software routines. In particular, providing a free and open replacement for the SolarSoft packages is of key interest. While SolarSoft itself is a great resource, the reliance on IDL licensing is less than ideal.
 
