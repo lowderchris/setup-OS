@@ -214,14 +214,6 @@ From here, one optional modification is to specify the GUI tool used when viewin
 
     brew install pandoc
 
-[Jekyll](https://jekyllrb.com) is a great tool for building a responsive, static website from content files. In my case, I use this to generate blog files and serve these up to GitHub for rendering. This is easily installed with the already installed Homebrew.
-
-    brew install ruby
-
-Then, in a new terminal session (to allow paths to update),
-
-    gem install jekyll
-
 [Mayavi](http://docs.enthought.com/mayavi/mayavi/index.html) uses the VTK toolkit to provide an environment for 3d visualization of scientific data. While the documentation can sometimes be a bit lacking, it's a great tool for viewing more complex datasets. Did I mention you can script it from Python?!
 
     brew install qt
