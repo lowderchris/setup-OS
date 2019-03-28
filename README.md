@@ -2,8 +2,6 @@
 
 After having re-installed and moved computing machines so many times, I’ve almost got the hang of re-installing applications and bits of code. To make this a bit simpler, and to share this information for anyone else who might be interested, I’ve compiled this into a guide. This guide will end up changing and evolving with time, a sort of living document.
 
-The script residing in this directory will attempt to automate some of these install tasks.
-
 ## System settings
 
 Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilidge, but I keep my Desktop absolutely empty.
@@ -69,8 +67,6 @@ I’m a fan of the VIM text editor, so that's almost an immediate install,
 To connect to remote servers and have windows tunneled over the connection, you'll need the [XQuartz](https://www.xquartz.org) libraries. Luckily, this can now be installed with the homebrew cask commands via,
 
     brew cask install xquartz
-
-*Note that as of XQuartz 2.7.9, a [bug](https://bugs.freedesktop.org/show_bug.cgi?id=96260) exists that appears to break some OpenGL elements of window forwarding from a remote machine, particularly with regard to MayaVi and VTK. Installing the beta of [XQuartz 2.7.10](https://www.xquartz.org/releases/XQuartz-2.7.10_rc2.html) resolves this issue.*
 
 Creating animations from individual figure frames or converting between video formats is only a command line away with [ffmpeg](https://ffmpeg.org), which can be installed with,
 
@@ -142,7 +138,6 @@ And with that, you now have a fully functional solar physics battlestation.
 
 Once you've got a nice stable installation setup and running, what better than to upgrade packages to break existing code and workflows. For the brave (or for those with virtual environments setup) all packages can be upgraded with pip in one (two) fell swoop(s).
 
-    pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
     pip3 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
 
 ### Virtual environments
@@ -151,16 +146,6 @@ After installing this core set of packages, you might run into a bit of code tha
 
     pyvenv dirpath
     source dirpath/bin/activate
-
-### Python 2 legacy code
-
-While sticking with Python 3.x is probably best for the long-run, you might occasionally run across some code that relies on older packages. Many projects are now suggesting that all new code is Python3.x compatible first, and that new users focus on this. In case you absolutely need these legacy packages, install Python 2 with the following,
-
-    sudo easy_install pip
-    pip2 install numpy
-    pip2 install scipy
-    pip2 install matplotlib
-    pip2 install ipython
 
 ## SSH
 
@@ -220,3 +205,5 @@ From here, one optional modification is to specify the GUI tool used when viewin
     brew install homebrew/science/vtk5 —with-python —with-tcl
     echo /usr/local/opt/vtk5/lib/python2.7/site-packages >> /usr/local/lib/python2.7/site-packages/vtk5.pth
     pip install mayavi
+
+*Note that currently with changes to Homebrew disabling custom installation flags without resorting to custom taps, this method may be deprecated.*
