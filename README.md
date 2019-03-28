@@ -207,3 +207,23 @@ From here, one optional modification is to specify the GUI tool used when viewin
     pip install mayavi
 
 *Note that currently with changes to Homebrew disabling custom installation flags without resorting to custom taps, this method may be deprecated.*
+
+# iOS Setup Guide
+
+With iPads becoming a more feasible option for some remote working tasks, I thought I would document some useful setup tips and apps of interest.
+
+## iCloud Drive
+
+iCloud Drive is one of the major components that makes this possible. With my Documents and Desktop folders synced to the cloud, changes made either on macOS or iOS are synced seamlessly. Conflicts from offline editing can be resolved straightforwardly. This has the added benefit of providing an automatic backup of critical data that doesn't require an external disk, and just plain works.
+
+The native Files app allows browsing around this cloud file system, and is somewhat a replacement for Finder. Tags can also provide a useful tool for organization outside the traditional folder format.
+
+## Work apps
+The app suite formerly known as iWork... Pages, Numbers, and Keynote provide excellent tools for dealing with office documents. With a recent code revamp to align with their macOS counterparts, there's less of barrier to getting work done despite the platform.
+
+## Other apps
+[Working Copy](https://itunes.apple.com/us/app/working-copy/id896694807?mt=8) provides something I thought I'd never see on iOS... an interface for dealing with Git and GitHub version control. Cloning remote repositories creates local copy, with most arcane git commands reduced to a few swipes. A native editor inside the app allows for syntax highlighted changes, along with visual difference comparisons once ready to commit. A quick toggle for Working Copy inside the Files app allows for other apps to access cloned repository files as well.
+
+[Texpad](https://itunes.apple.com/us/app/texpad-latex-editor/id550419159?mt=8) is a LaTeX editor with real-time and offline typesetting... what more could you want.
+
+[Terminus](https://itunes.apple.com/us/app/termius-ssh-client/id549039908?mt=8) is an SSH client, for connecting to remote servers. I couldn't see myself using this for extensive sessions, especially without an external keyboard, but it seems promising for quick edits and jobs.
