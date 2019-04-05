@@ -177,7 +177,6 @@ And finally, if you work between two machines quite a bit, rsync is a very usefu
 [Git](https://git-scm.com) is a great tool for version control of files in a project directory. An updated version can easily be installed using Homebrew.
 
     brew install git
-    git config --global credential.helper osxkeychain
 
 From here, one optional modification is to specify the GUI tool used when viewing diffs and merges with the git commands difftool and mergetool. On macOS, there's a lovely visual tool for comparing changes between files that can be set as the default. Another optional choice is vimdiff, or gvimdiff.
 
@@ -189,7 +188,8 @@ From here, one optional modification is to specify the GUI tool used when viewin
 
     git config --global user.name "YOUR NAME"
     git config --global user.email "YOUR EMAIL ADDRESS"
-    git credential-osxkeychain
+
+From here, SSH authorization can be enabled by generating a local SSH key through the method outlined above, and storing that with GitHub through the web interface.
 
 [InkScape](https://inkscape.org/en/) is a fantastic GUI tool for vector graphic design, particularly great for figure design. The author has resorted in the past to painstakingly creating figures with tools such as XFig or LaTeX/TikZ... but that can be time consuming.
 
