@@ -7,7 +7,7 @@ After having re-installed and moved computing machines so many times, I’ve alm
 Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilidge, but I keep my Desktop absolutely empty.
 
     defaults write com.apple.screencapture disable-shadow -bool true
-    defaults write com.apple.screencapture location ~/Downloads/
+    defaults write com.apple.screencapture location ~/Desktop/
     killall SystemUIServer
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
@@ -48,7 +48,7 @@ Xcode has great integration with version control, especially git and GitHub. Bea
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-So easy. *cough*MacPorts*cough*
+(Note that at the moment, due to changes in how Homebrew handles compilation options, some of the following may need to be revised, or handled using a custom tap)
 
 ### Usage
 
