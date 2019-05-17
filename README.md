@@ -184,6 +184,11 @@ From here, one optional modification is to specify the GUI tool used when viewin
     git config --global diff.tool opendiff
     git config --global difftool.prompt false
 
+Finally, while each repository can selectively ignore particular filetypes, configure a global list of files to forget about.
+
+    echo .DS_Store >> ~/.gitignore
+    git config --global core.excludesfile ~/.gitignore
+
 [GitHub](https://github.com) allows for an online repository of project version control with git. It's a great way to work with open source code on the web. Private repositories are also available if needed. After setting up an account online, setup is a breeze.
 
     git config --global user.name "YOUR NAME"
