@@ -112,9 +112,10 @@ There are a number of additional packages that make scientific analysis and pres
 
     pip3 install scipy
 
-[Matplotlib](http://matplotlib.org) provides a beautiful set of data visualization tools for use within python. Syntax and appearance mimics that in Matlab, which can make the transition a bit easier for some folks seeing the light. A [gallery](http://matplotlib.org/gallery.html) has more examples than you have time to explore.
+[Matplotlib](http://matplotlib.org) provides a beautiful set of data visualization tools for use within python. Syntax and appearance mimics that in Matlab, which can make the transition a bit easier for some folks seeing the light. A [gallery](http://matplotlib.org/gallery.html) has more examples than you have time to explore. The palettable package provides more extensive color table management, as well as a library of Wes Anderson film-inspired color palettes... because of course that exists.
 
     pip3 install matplotlib
+    pip3 install palettable
 
 [iPython](http://ipython.org) is an interactive command line interface for python, again making it more akin to a Matlab-like-environment.
 
@@ -123,7 +124,6 @@ There are a number of additional packages that make scientific analysis and pres
 A few other packages will enable some astronomy libraries, as well as tools for dealing with reading large databases. Many packages will eventually call for these as pre-requisites, so I’d go ahead and install these now.
 
     pip3 install astropy
-    pip3 install pyfits
     pip3 install pandas
     pip3 install suds
     pip3 install h5py
