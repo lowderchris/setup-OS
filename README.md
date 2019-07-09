@@ -38,7 +38,7 @@ Xcode itself can be installed via the macOS app store, or alternatively from the
 
 This will install the required command line tools for the rest of this installation process… as well as fueling the dream of one day having time to try my hand at creating a simple iOS app...
 
-Xcode has great integration with version control, especially git and GitHub. Beautiful side-by-side difference comparisons allow for quick and seamless committing and pushing to remote sources. A GitHub account can be added under the Xcode settings preference pane, where an SSH key can be generated and imported into GitHub online. Under the source control tab of the preference pane, editor information can be updated as well.
+Xcode has integration with version control, especially git and GitHub. Beautiful side-by-side difference comparisons allow for quick and seamless committing and pushing to remote sources. A GitHub account can be added under the Xcode settings preference pane, where an SSH key can be generated and imported into GitHub online. Under the source control tab of the preference pane, editor information can be updated as well. One could always just use the terminal instead...
 
 ## Homebrew
 
@@ -85,10 +85,6 @@ One more thing... homebrew packages that have a corresponding macOS application 
 ### Core
 
 [Python](https://www.python.org) is the language of choice for many researchers, and is actively developed and maintained. Best of all, the open-source community has adopted this for many open science analysis packages. Even better, there’s no license manager to deal with!
-
-An earlier version of python comes bundled with macOS, but we can do a bit better. Depending on your needs as a researcher, there are two major versions to consider. 2.7.11 is the last stable version of the 2.x versions of python. Many older repositories of code rely on syntax and packages in this version. With the introduction of python 3.x, changes were made to clean-up and modernize the language. As you might imagine, this left a few older code packages broken.
-
-You can choose either version for use, but I’d recommend starting with python 3.x for modernity. The older version of python installed with macOS will remain for use with legacy code.
 
 Many folks will recommend installing a version of python bundled with other python packages geared at scientific analysis. I enjoy having a bit more control over which packages are installed, and how I go about updating these. I’ve also never met a software wizard I trust. How easy is it to install python with homebrew?
 
