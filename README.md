@@ -138,10 +138,10 @@ Once you've got a nice stable installation setup and running, what better than t
 
 ### Virtual environments
 
-After installing this core set of packages, you might run into a bit of code that requires something more obscure. Rather than polluting this main tree of package installation, virtual environments allow a user to install required packages locally, in the project working directory. This will then allow either more obscure packages, or older versions that cannot be upgraded without breaking some code. For Python 3, the pyvenv tool (included by default) can be used for this. First, the env directory must be created, and then sourced to activate while managing packages.
+After installing this core set of packages, you might run into a bit of code that requires something more obscure. Rather than polluting this main tree of package installation, virtual environments allow a user to install required packages locally, in the project working directory. This will then allow either more obscure packages, or older versions that cannot be upgraded without breaking some code. First, the env directory must be created, and then sourced before use to modify the python path prior to package installation and use.
 
-    pyvenv dirpath
-    source dirpath/bin/activate
+    python3 -m venv /path/to/new/directory
+    source /path/to/new/directory/bin/activate
 
 ## SSH
 
