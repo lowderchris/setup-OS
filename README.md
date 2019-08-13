@@ -211,6 +211,8 @@ From here, SSH authorization can be enabled by generating a local SSH key throug
 
 Amphetamine is a great macOS tool, replacing a tool I previously used (Caffeine), to keep a mac computer awake. Granular controls allow for preventing sleep for a temporary duration, specifying charge conditions, and more. Great for running code on a laptop and being able to lock the computer and step away for a while.
 
+[MenuMeters](https://github.com/emcrisostomo/MenuMeters) provides a method to display current CPU, memory, disk, and network activity in a variety of ways unobtrusively in the macOS menu bar. This is great to keep an eye on running processes, avoiding the alternative method of guestimating CPU usage based on the tone of whirring fans...
+
 # iOS Setup Guide
 
 With iPads becoming a more feasible option for some remote working tasks, I thought I would document some useful setup tips and apps of interest.
