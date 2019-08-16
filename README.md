@@ -156,7 +156,7 @@ Now, let's say that you have a trickier situation, and that a proxy server exist
     Host shortname
     HostName final.path.of.server
     User username
-    ProxyCommand ssh proxyuser@proxy.server.address nc %h %p 2> /dev/null
+    ProxyJump path.of.proxy.server
 
 The above setup will allow you to easily connect without the need for pesky usernames or full addresses. Going a step further, you can create authenticated keys for machines in your SSH path, that will recognize trusted machines without typing in a password each time you connect, or run a scp command, or an rsync job...
 
