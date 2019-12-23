@@ -88,7 +88,7 @@ One more thing... homebrew packages that have a corresponding macOS application 
 
 Many folks will recommend installing a version of python bundled with other python packages geared at scientific analysis. I enjoy having a bit more control over which packages are installed, and how I go about updating these. I’ve also never met a software wizard I trust. How easy is it to install python with homebrew?
 
-    brew install python3
+    brew install python
 
 Done. Almost like magic.
 
@@ -139,7 +139,7 @@ Once you've got a nice stable installation setup and running, what better than t
 
 After installing this core set of packages, you might run into a bit of code that requires something more obscure. Rather than polluting this main tree of package installation, virtual environments allow a user to install required packages locally, in the project working directory. This will then allow either more obscure packages, or older versions that cannot be upgraded without breaking some code. First, the env directory must be created, and then sourced before use to modify the python path prior to package installation and use.
 
-    python3 -m venv /path/to/new/directory
+    python -m venv /path/to/new/directory
     source /path/to/new/directory/bin/activate
 
 ## SSH
