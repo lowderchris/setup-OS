@@ -76,6 +76,10 @@ Almost last but not least, a great (in my opinion) text editor, [VIM](http://www
 
     brew install vim
 
+For system monitoring in the status bar - stats provides a nice open source version. It can be configured in a number of ways to display CPU, GPU, RAM, network, etc usage.
+
+    brew install --cask stats
+
 One more thing... homebrew packages that have a corresponding macOS application bundle can have this installed to the /Applications/ directory. This will allow for macOS to have something to easily point to as a default application for opening particular file types, etc.
 
     brew linkapps
