@@ -2,6 +2,8 @@
 
 After having re-installed and moved computing machines so many times, I’ve almost got the hang of re-installing applications and bits of code. To make this a bit simpler, and to share this information for anyone else who might be interested, I’ve compiled this into a guide. This guide will end up changing and evolving with time, a sort of living document.
 
+Note that with the release of ARM macs, some of the following might not work straightaway.
+
 ## System settings
 
 Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilidge, but I keep my Desktop absolutely empty.
