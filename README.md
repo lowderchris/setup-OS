@@ -6,7 +6,7 @@ Note that with the release of ARM macs, some of the following might not work str
 
 ## System settings
 
-Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilidge, but I keep my Desktop absolutely empty.
+Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilege, but I keep my Desktop absolutely empty.
 
     defaults write com.apple.screencapture disable-shadow -bool true
     defaults write com.apple.screencapture location ~/Desktop/
@@ -43,6 +43,10 @@ This will install the required command line tools for the rest of this installat
 Xcode has integration with version control, especially git and GitHub. Beautiful side-by-side difference comparisons allow for quick and seamless committing and pushing to remote sources. A GitHub account can be added under the Xcode settings preference pane, where an SSH key can be generated and imported into GitHub online. Under the source control tab of the preference pane, editor information can be updated as well. One could always just use the terminal instead...
 
 ## Homebrew
+
+If you read a bit ahead, and are comfortable with installing / managing things from the command line, then continue on brave reader. If you are in a rush, or don't want to deal with a homebrew/pip installation that might fall apart like a house of cards at any moment... you might want to also consider a standalone library of python tools such as Anaconda. These are great tools that provide most everything you'll need in one easy download.
+
+If you go ahead with the following, keep in mind whether or not your day-to-day user is an admin. If not - make sure to install everything as an admin user first, adding library locations to your regular user path afterwards.
 
 ### Installation
 
