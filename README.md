@@ -9,7 +9,7 @@ Note that with the release of ARM macs, some of the following might not work str
 Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilege, but I keep my Desktop absolutely empty.
 
     defaults write com.apple.screencapture disable-shadow -bool true
-    defaults write com.apple.screencapture location ~/Desktop/
+    defaults write com.apple.screencapture location ~/Downloads/
     killall SystemUIServer
 
 In addition, I often find myself in a caffeine induced trance when coding, and sometimes the keyboard can feel a bit slow when jumping around quickly in text on the command line. To speed this up a bit, access the Key repeat and delay settings under Settings > Keyboard.
