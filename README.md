@@ -4,6 +4,8 @@ After having re-installed and moved computing machines so many times, I’ve alm
 
 Note that with the release of ARM macs, some of the following might not work straightaway.
 
+For folks with stricter IT requirements - say if your primary user account is not an admin, you might want to consider installing everything *as* a temporary admin user, or everything locally. Mixing between the two I've found to be confusing. Virtual environments for Python packages are also your friend here.
+
 ## System settings
 
 Right off the bat, there are a few changes I always make to some macOS defaults that suit my uses a bit better. First of all, change the screenshot format to use PNG, and change the default save location to the ~/Downloads/ folder. I know this might be sacrilege, but I keep my Desktop absolutely empty.
