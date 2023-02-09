@@ -88,10 +88,6 @@ For system monitoring in the status bar - stats provides a nice open source vers
 
     brew install --cask stats
 
-One more thing... homebrew packages that have a corresponding macOS application bundle can have this installed to the /Applications/ directory. This will allow for macOS to have something to easily point to as a default application for opening particular file types, etc.
-
-    brew linkapps
-
 ## Python
 
 ### Core
