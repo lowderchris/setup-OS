@@ -169,7 +169,7 @@ The above setup will allow you to easily connect without the need for pesky user
 
     local> ssh-keygen -t rsa
     local> scp id_rsa.pub remoteserver:~/
-    remote> cat ~/id_rsa.pub >> authorized_keys
+    remote> cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
 
 And finally, if you work between two machines quite a bit, rsync is a very useful tool to synchronize changes between directories without needing to transfer every file.
 
