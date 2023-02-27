@@ -199,23 +199,4 @@ Finally, while each repository can selectively ignore particular filetypes, conf
 
 From here, SSH authorization can be enabled by generating a local SSH key through the method outlined above, and storing that with GitHub through the web interface.
 
-[InkScape](https://inkscape.org/en/) is a fantastic GUI tool for vector graphic design, particularly great for figure design. The author has resorted in the past to painstakingly creating figures with tools such as XFig or LaTeX/TikZ... but that can be time consuming.
-
-    brew cask install inkscape
-
-[Pandoc](http://pandoc.org) is a fantastic tool for the automated conversion between a number of language types, from Markdown, LaTeX, HTML, ePub, etc. This is a great tool for writing notes up in one language, Markdown, for instance, and then enables the easy conversion into a number of other document types.
-
-    brew install pandoc
-
-[Mayavi](http://docs.enthought.com/mayavi/mayavi/index.html) uses the VTK toolkit to provide an environment for 3d visualization of scientific data. While the documentation can sometimes be a bit lacking, it's a great tool for viewing more complex datasets. Did I mention you can script it from Python?!
-
-    brew install qt
-    brew install homebrew/science/vtk5 —with-python —with-tcl
-    echo /usr/local/opt/vtk5/lib/python2.7/site-packages >> /usr/local/lib/python2.7/site-packages/vtk5.pth
-    pip install mayavi
-
-*Note that currently with changes to Homebrew disabling custom installation flags without resorting to custom taps, this method may be deprecated.*
-
-Amphetamine is a great macOS tool, replacing a tool I previously used (Caffeine), to keep a mac computer awake. Granular controls allow for preventing sleep for a temporary duration, specifying charge conditions, and more. Great for running code on a laptop and being able to lock the computer and step away for a while.
-
 [Stats](https://github.com/exelban/stats) provides a method to display current CPU, memory, disk, and network activity in a variety of ways unobtrusively in the macOS menu bar. This is great to keep an eye on running processes, avoiding the alternative method of guestimating CPU usage based on the tone of whirring fans...
